@@ -28,7 +28,7 @@ namespace APIResources.Migrations
                     b.Property<DateTime>("DateRegister")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Descricao")
+                    b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("IdRespChange")
@@ -37,7 +37,7 @@ namespace APIResources.Migrations
                     b.Property<int>("IdRespRegistration")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Onservacao")
+                    b.Property<string>("Observation")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
